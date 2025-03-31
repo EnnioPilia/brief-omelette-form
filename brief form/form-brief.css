@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: hsl(148, 38%, 91%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contenair{
+    height: 75%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 2%;
+    font-family: "Karla", sans-serif;
+}
+
+form{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    color:  hsl(187, 24%, 22%);
+}
+
+h1{
+    color:  hsl(187, 24%, 22%);
+}
+
+.names{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border-radius: 15%;
+    gap: 10px;
+    font-size: 15px;  
+}
+
+.names > div {
+    display: flex;
+    flex-direction: column; 
+    flex: 1; 
+}
+
+input[type="text"] {
+    width: 100%; 
+    height: 100%; 
+    margin-top: 5px;
+    border: 1px solid hsl(0, 0%, 60%);
+    border-radius: 10%;
+}
+
+.email{
+    width: 100%; 
+    height: 10%; 
+    font-size: 15px;
+}
+
+input[type="email"]{
+    width: 100%; 
+    height: 68%; 
+    margin-top: 5px;
+    border: 1px solid hsl(0, 0%, 60%);
+    border-radius: 10%;
+}
+
+.titreQT{
+    width: 100%; 
+    height: 1%; 
+    margin-top: 10px;
+}
+
+.query-type{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7%;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.query-type> div {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+    font-size: 15px;
+    border: 1px solid  hsl(0, 0%, 60%);
+    border-radius: 10%;
+}
+
+.radio label{
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="radio"] {
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+.message{
+    width: 100%; 
+    height: 25%;  
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.message textarea {
+    resize: none; 
+    width: 100%; 
+    height: 100%; 
+    border: 1px solid  hsl(0, 0%, 60%);
+    border-radius: 5%;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+input[type="submit"] {
+    width: 100%; 
+    height: 7%; 
+    border: none;
+    cursor: pointer;
+    background:  hsl(169, 82%, 27%);
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    border-radius: 7%;  
+}
+
+input, .checkbox label{
+    cursor: pointer; 
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border: 2px solid hsl(187, 24%, 50%); 
+}

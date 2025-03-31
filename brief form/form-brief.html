@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-brief.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Raleway&display=swap" rel="stylesheet">   
+    <title>form</title>
+</head>
+<body>
+<main>
+    <div class="form-contenair">
+            
+            <form method="get" action="">
+        
+                <h1>Contact Us</h1>
+                <div class="names">
+                    <div>
+                        <label for="name">First Name</label>
+                        <input type="text" name="name" id="nom">
+                    </div>
+                
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+            
+                <div class="titreQT">
+                    <p>Query Type</p>
+                </div>
+                <div class="query-type">
+                 
+                    <div class="radio 1">
+                        <input type="radio" name="Query Type" value="GeneralEn" id="GeneralEn"> <label for="GeneralEn">General Enquiry</label>
+                    </div>
+                    <div class="radio 2">
+                        <input type="radio" name="Query Type" value="SupportReg" id="SupportReg"> <label for="supportReq">Support Request</label>       
+                     </div>
+                </div>
+                
+                <div class="message">
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" cols="40" rows="4"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox"> 
+                    <label for="checkbox">I consent to being contacted by the team </label>
+                </div>
+                
+                    <input type="submit" value="Submit">
+            </form>
+        </div>  
+</main>
+</body>
+</html>
